@@ -1,0 +1,13 @@
+services:
+  node:
+    build: .
+    container_name: ${CONTAINER_NAME}
+    environment:
+      NODE_ID: ${NODE_ID}
+      PORT: ${PORT}
+      PEERS: ${PEERS}
+      MONGODB_URI: ${MONGODB_URI}
+      DB_NAME: ${DB_NAME}
+    ports:
+      - "${PORT}:${PORT}"
+    restart: unless-stopped
