@@ -235,20 +235,12 @@ The system can be deployed to multiple AWS EC2 instances:
 * FastAPI microservice learning
 * Docker multi service practice
 
----
 
-## Limitations
-
-* Small three node cluster
-* Simplified ride matching logic
-* No authentication
-* No load balancer
-* Intended for education and experimentation
 
 ---
 
 ## Author
 
 Tracy Erivwode
-COEN 691 Final Project
+COEN 6731 Final Project
 Concordia University
